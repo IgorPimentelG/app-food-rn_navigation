@@ -14,7 +14,7 @@ function MealDetail({ route, navigation }) {
             headerRight: () => {
                 return( 
                     <IconButton 
-                        name='start'
+                        icon='star'
                         color='#FFF'
                         onPress={headerButtonPressHandler}
                     />
